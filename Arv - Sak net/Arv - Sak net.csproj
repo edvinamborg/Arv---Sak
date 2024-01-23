@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bok.cs" />
     <Compile Include="CD.cs" />
     <Compile Include="Databas.cs" />
     <Compile Include="DVD.cs" />

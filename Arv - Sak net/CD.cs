@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 public class CD : Sak
 {
     
-    public CD(String i)
+    public CD(String namn)
     {
-        titel = i;
+        titel = namn;
         sak = "CD";
+        summary = sak + ", Namn: " + titel;
     }
 }

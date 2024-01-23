@@ -21,7 +21,7 @@ public class Databas
     public void SkrivUt()
     {
         foreach (Sak sak in saker)
-        {
+        {           
             sak.Print();
         }
     }

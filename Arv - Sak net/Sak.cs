@@ -8,15 +8,15 @@ public class Sak
 {
     protected string titel;
     protected string sak;
+    protected string summary;
 
     public Sak ()
     {
-        titel = "Untitled";
     }
 
     public void Print()
-    {
-        Console.WriteLine(sak + ", Namn: " + titel);
+    { 
+        Console.WriteLine(summary);       
     }
    
 

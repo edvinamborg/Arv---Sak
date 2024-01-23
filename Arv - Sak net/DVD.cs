@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 public class DVD : Sak
 {
-   
+    
     public DVD(String i)
     {
         titel = i;
         sak = "DVD";
+        summary = sak + ", Namn: " + titel;
     }
 }

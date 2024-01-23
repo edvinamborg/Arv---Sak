@@ -14,11 +14,11 @@ namespace Arv___Sak_net
             minDatabas.Add(new DVD("kung fury"));
             minDatabas.Add(new CD("Lord of the Rings"));
             minDatabas.Add(new DVD("Matrix"));
+            minDatabas.Add(new Bok("Great Gatsby", "F Scott Fitzgerald"));
             minDatabas.Add(new DVD("Titanic"));
             minDatabas.Add(new CD("Avatar"));
+            minDatabas.Add(new Bok("Harry Potter", "J.K Rowling"));
             minDatabas.SkrivUt();
-
-
         }
     }
 }
