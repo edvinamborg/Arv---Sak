@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Sak
+abstract class Sak
 {
     protected string titel;
     protected string sak;
@@ -14,10 +14,7 @@ public class Sak
     {
     }
 
-    public void Print()
-    { 
-        Console.WriteLine(summary);       
-    }
+    public abstract void Print();
    
 
 }

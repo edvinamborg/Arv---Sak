@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class DVD : Sak
+class DVD : Sak
 {
     
     public DVD(String i)
@@ -12,5 +12,10 @@ public class DVD : Sak
         titel = i;
         sak = "DVD";
         summary = sak + ", Namn: " + titel;
+    }
+
+    public override void Print()
+    {
+        Console.WriteLine(summary);
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class CD : Sak
+class CD : Sak
 {
     
     public CD(String namn)
@@ -12,5 +12,10 @@ public class CD : Sak
         titel = namn;
         sak = "CD";
         summary = sak + ", Namn: " + titel;
+    }
+
+    public override void Print()
+    {
+        Console.WriteLine(summary);
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public class Bok : Sak
+class Bok : Sak
 {
     private string författare;
     public Bok(String namn, String ff)
@@ -14,6 +14,10 @@ public class Bok : Sak
         författare = ff;
         summary = sak + ", Namn: " + titel + ", Författare: " + författare;
     }
+    public override void Print()
+    {
+        Console.WriteLine(summary);
+    }
 
-    
+
 }
